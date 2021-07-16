@@ -1,0 +1,37 @@
+{
+    "parent": "betterseafood:root",
+    "display": {
+      "icon": {
+        "item": "betterseafood:opal"
+      },
+      "title": {
+        "translate": "advancements.story.mine_opal.title"
+      },
+      "description": {
+        "translate": "advancements.story.mine_opal.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "diamond": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "betterseafood:opal"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "opal"
+      ]
+    ]
+  }

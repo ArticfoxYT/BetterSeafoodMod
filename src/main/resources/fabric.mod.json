@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "betterseafood",
+  "version": "${version}",
+
+  "name": "Better Seafoods",
+  "description": "Adds a variety of new food options to pre-existing passive mobs",
+  "authors": [
+    "Articfox"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/betterseafood/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "articfox.better.seafood.BetterSeafood"
+    ]
+  },
+  "mixins": [
+    "betterseafood.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:salmon"
+  },
+  "result": "betterseafood:smoked_salmon",
+  "experience": 0.45,
+  "cookingtime": 100
+}

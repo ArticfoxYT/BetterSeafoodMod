@@ -1,0 +1,33 @@
+{
+    "parent": "betterseafood:recipes/root",
+    "rewards": {
+      "recipes": [
+        "minecraft:opal_pickaxe"
+      ]
+    },
+    "criteria": {
+      "has_diamond": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "betterseafood:opal"
+              ]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "betterseafood:opal_pickaxe"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_opal"
+      ]
+    ]
+  }

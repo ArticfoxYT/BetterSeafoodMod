@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "addition": {
+    "item": "betterseafood:opal"
+  },
+  "result": {
+    "item": "betterseafood:opal_pickaxe"
+  }
+}

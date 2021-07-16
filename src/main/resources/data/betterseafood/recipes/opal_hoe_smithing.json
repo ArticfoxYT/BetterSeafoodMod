@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "addition": {
+    "item": "betterseafood:opal"
+  },
+  "result": {
+    "item": "betterseafood:opal_hoe"
+  }
+}

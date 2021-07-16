@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "betterseafood:raw_squid"
+    },
+    "result": "betterseafood:calamari",
+    "experience": 0.5,
+    "cookingtime": 25
+  }

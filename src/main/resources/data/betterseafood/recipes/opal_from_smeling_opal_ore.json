@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "group": "opal",
+    "ingredient": {
+      "item": "betterseafood:opal_ore"
+    },
+    "result": "betterseafood:opal",
+    "experience": 1.5,
+    "cookingtime": 200
+  }
