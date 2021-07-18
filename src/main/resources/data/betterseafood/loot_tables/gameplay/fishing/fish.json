@@ -26,8 +26,8 @@
             "name": "minecraft:pufferfish"
           },
           {
-            "type": "minecraft:item",
-            "weight": 15,
+            "type": "betterseafood:item",
+            "weight":100,
             "name": "betterseafood:raw_squid"  
           }
         ]

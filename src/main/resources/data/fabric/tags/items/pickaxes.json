@@ -2,5 +2,9 @@
   "replace": false,
   "values": [
     "betterseafood:opal_pickaxe"
+  ],
+  "replace": false,
+  "values": [
+    "betterseafood:fiery_opal_pickaxe"
   ]
 }

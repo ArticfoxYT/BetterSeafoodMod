@@ -1,0 +1,44 @@
+{
+  "parent": "betterseafood:root",
+  "display": {
+    "title": {
+      "text": "A Giant Woman"
+    },
+    "description": {
+      "text": "Mine Opal Ore"
+    },
+    "icon": {
+      "item": "betterseafood:opal"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "Mine Opal Ore": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "item": "minecraft:diamond_pickaxe",
+          "item": "minecraft:netherite_pickaxe"
+        },
+        "location": {
+          "block": {
+            "block": "betterseafood:opal_ore"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+    "Mine Opal Ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterseafood:opal_pickaxe"
+      ]
+    }
+  }

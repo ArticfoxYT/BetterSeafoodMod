@@ -1,0 +1,35 @@
+{
+  "parent": "betterseafood:a_giant_woman",
+  "display": {
+    "title": {
+      "text": "Craft an Opal Pickaxe"
+    },
+    "description": {
+      "text": "Craft an Opal Pickaxe using mined Opal"
+    },
+    "icon": {
+      "item": "betterseafood:opal_pickaxe"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "Craft an Opal Pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterseafood:opal_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+    "Craft an Opal Pickaxe"
+    ]
+  ]
+}

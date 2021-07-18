@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:smoking",
+  "type": "minecraft:smelting",
   "ingredient": {
     "item": "betterseafood:raw_glow_squid"
   },
   "result": "betterseafood:glow_calamari",
-  "experience": 0.5,
-  "cookingtime": 25
+  "experience": 0.25,
+  "cookingtime": 100
 }

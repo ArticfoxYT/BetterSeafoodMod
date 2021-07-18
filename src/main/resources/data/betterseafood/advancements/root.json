@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "betterseafood:obsidian_scaled_salmon"
+    },
+    "title": {
+      "translate": "advancements.betterseafood.root.title"
+    },
+    "description": {
+      "translate": "advancements.betterseafood.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "opal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterseafood:opal"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

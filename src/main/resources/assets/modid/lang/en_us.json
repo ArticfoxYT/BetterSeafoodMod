@@ -5,6 +5,7 @@
     "item.betterseafood.opal_sword": "Opal Sword",
     "item.betterseafood.opal_pickaxe": "Opal Pickaxe",
     "block.betterseafood.opal_ore": "Opal Ore",
+    "block.betterseafood.fiery_opal_ore": "Fiery Opal Ore",
     "item.betterseafood.opal": "Opal",
     "item.betterseafood.calamari": "Calamari",
     "item.betterseafood.raw_squid": "Raw Squid",
@@ -20,5 +21,11 @@
     "item.betterseafood.sushi": "Sushi",
     "item.betterseafood.sashimi": "Sashimi",
     "item.betterseafood.lobster": "Lobster",
-    "item.betterseafood.french_fries": "French Fries"
+    "item.betterseafood.french_fries": "French Fries",
+    "item.betterseafood.fiery_opal": "Fiery Opal",
+    "item.betterseafood.fiery_opal_pickaxe": "Fiery Opal Pickaxe",
+    "item.betterseafood.obsidian_scaled_salmon": "Obsidian Scaled Salmon",
+    "item.betterseafood.fish_scales": "Fish Scales",
+    "advancements.betterseafood.root.title": "Better Seafood",
+    "advancements.betterseafood.root.description": "Advancements for the Better Seafood Mod"
 }
