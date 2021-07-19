@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "betterseafood:rice"
+    }
+  },
+  "result": {
+    "item": "betterseafood:rice_ball",
+    "count": 4
+  }
+}

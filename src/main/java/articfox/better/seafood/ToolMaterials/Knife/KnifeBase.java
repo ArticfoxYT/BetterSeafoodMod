@@ -1,4 +1,4 @@
-package articfox.better.seafood.Tools.Materials.Knife;
+package articfox.better.seafood.ToolMaterials.Knife;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

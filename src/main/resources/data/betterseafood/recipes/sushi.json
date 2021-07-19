@@ -16,11 +16,11 @@
       "item": "minecraft:seagrass"
     },
     {
-      "item": "minecraft:wheat_seeds"
+      "item": "betterseafood:rice_ball"
     }
   ],
   "result": {
     "item": "betterseafood:sushi",
-    "count": 1
+    "count": 3
   }
 }

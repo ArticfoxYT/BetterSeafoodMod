@@ -1,44 +1,44 @@
-package articfox.better.seafood.Tools.Materials.FieryOpal;
+package articfox.better.seafood.ToolMaterials.Knife;
 
-import articfox.better.seafood.BetterSeafood;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialFieryOpal implements ToolMaterial {
+public class ToolMaterialKnife implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
         // TODO Auto-generated method stub
-        return 5F;
+        return 3F;
     }
 
     @Override
     public int getDurability() {
         // TODO Auto-generated method stub
-        return 2500;
+        return 2000;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
         // TODO Auto-generated method stub
-        return 9.5F;
+        return 1.0F;
     }
 
     @Override
     public int getMiningLevel() {
         // TODO Auto-generated method stub
-        return 9;
+        return 1;
     }
 
     @Override
     public int getEnchantability() {
         // TODO Auto-generated method stub
-        return 25;
+        return 20;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
         // TODO Auto-generated method stub
-        return Ingredient.ofItems(BetterSeafood.FIERY_OPAL);
+        return Ingredient.ofItems(Items.IRON_INGOT);
     }
 }

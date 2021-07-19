@@ -1,4 +1,4 @@
-package articfox.better.seafood.Tools.Materials.Opal;
+package articfox.better.seafood.ToolMaterials.Opal;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
